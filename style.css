@@ -1,0 +1,132 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  
+}
+
+header {
+  border-bottom: 4px solid gray;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  height: 125px;
+  padding: 10px;
+  text-shadow: 0 3px 3px white;
+  background-image: url("forplan.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: inherit; 
+  font-family: 'Alegreya Sans SC',sans-serif;
+}
+
+.marquee {
+  font-size: 3rem;
+}
+
+.questions {
+  text-align: left;
+  position: relative;
+  top: 23px;
+  left: 60px;
+  font-size: 1.2rem;
+  
+}
+
+.corrects {
+  text-align: right;
+  position: relative;
+  bottom: 0px;
+  right: 60px;
+  font-size: 1.2rem;
+}
+main {
+  background-image: url("rollfilm.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  
+
+
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+  
+  
+}
+.textBox {
+  text-shadow: 0 3px 3px white;
+  border: solid 2px grey;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+fieldset {
+  border: none;
+  font-size: 1.2rem;
+  margin-left:auto;
+  margin-right: auto;
+  text-align:justify;
+  width: 400px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-shadow: 0 2px 2px white;
+  
+  
+  
+
+}
+
+.submitButton {
+  justify-content: center;
+}
+
+button {
+  position: relative;
+  top: 40px;
+  background-color:goldenrod;
+  color: black;
+  font-size: 1.5rem;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-shadow: 0 2px 2px white;
+  border: solid 4px  black;
+  
+}
+.buttonBox {
+  margin-right:auto;
+  margin-left: auto;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  
+}
+
+form {
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  
+}
+
+.correctAnswer{
+  color: green;
+}
+
+.incorrectAnswer{
+  color: red;
+}
+
+
+
